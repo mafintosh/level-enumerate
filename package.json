@@ -6,7 +6,13 @@
   "dependencies": {
     "mutexify": "^1.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "memdb": "^0.2.0",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mafintosh/level-enumerate.git"
