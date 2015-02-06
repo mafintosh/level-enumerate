@@ -43,7 +43,7 @@ tape('chaotic enumeration', function (t) {
 
   for (var i = 0; i < 10; i++) {
     values.forEach(function(v) {
-      var add = function () {      
+      var add = function () {
         enumerate(v, function (err, num) {
           if (err) throw err
           if (typeof map[v] === 'number') t.same(num, map[v], 'consistent enumeration')
@@ -52,6 +52,6 @@ tape('chaotic enumeration', function (t) {
       }
 
       setTimeout(add, (Math.random() * 100) | 0)
-    })    
+    })
   }
 })

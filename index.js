@@ -43,7 +43,7 @@ var enumerator = function (db, opts) {
             count++
             release(cb, null, count - 1)
           })
-        })        
+        })
       }
 
       if (prevCount === count) return inc()
