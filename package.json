@@ -1,0 +1,20 @@
+{
+  "name": "level-enumerate",
+  "version": "0.0.0",
+  "description": "Enumerate keys to incrementing numbers",
+  "main": "index.js",
+  "dependencies": {
+    "mutexify": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/level-enumerate.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/level-enumerate/issues"
+  },
+  "homepage": "https://github.com/mafintosh/level-enumerate"
+}
