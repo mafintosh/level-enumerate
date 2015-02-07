@@ -7,6 +7,8 @@ If you enumerate the same key twice it will enumerate to the same value.
 npm install level-enumerate
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/level-enumerate.svg?style=flat)](http://travis-ci.org/mafintosh/level-enumerate)
+
 ## Usage
 
 ``` js
