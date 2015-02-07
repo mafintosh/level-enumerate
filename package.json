@@ -1,6 +1,6 @@
 {
   "name": "level-enumerate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enumerate keys to incrementing numbers",
   "main": "index.js",
   "dependencies": {
