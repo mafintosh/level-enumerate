@@ -21,8 +21,8 @@ var enumerator = function (db, opts) {
 
   var insert = function (prevCount, key, cb) {
     lock(function (release) {
-      var inc = function() {
-        getCount(function(err, cnt) {
+      var inc = function () {
+        getCount(function (err, cnt) {
           if (err) return release(cb, err)
 
           var batch = [{
