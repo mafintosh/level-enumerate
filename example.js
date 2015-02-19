@@ -4,7 +4,7 @@ var enumerator = require('./')
 var db = level('db')
 var enumerate = enumerator(db)
 
-var add = function(key) {
+var add = function (key) {
   enumerate(key, function (err, value) {
     if (err) throw err
     console.log('%s -> %d', key, value)
